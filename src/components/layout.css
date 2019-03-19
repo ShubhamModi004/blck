@@ -1,0 +1,32 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Eczar|Work+Sans');
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+h1,h2,h3,h4,h5,h6,h7{
+  font-family: 'Eczar', serif !important;
+}
+
+p,button,a{
+  font-family: 'Work Sans', sans-serif;
+}
+
+.footer{
+  background: #131313;
+  min-height: 64vh;
+}
+
+.hideOverflow{
+  overflow: hidden;
+}
+

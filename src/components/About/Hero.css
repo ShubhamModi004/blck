@@ -1,0 +1,100 @@
+.Hero{
+    height: 94vh;
+    background: #000;
+}
+
+.heroHeader{
+    margin-top: 22vh;
+    color: #fff;
+}
+.heroHeading{
+    font-size: 3rem;
+}
+
+.heroHeading div{
+    padding-right: 1rem;
+}
+
+.heroDescription{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    color: #AAAAAA;
+    margin-top: 0.3rem;
+}
+
+.socialMedia{
+    right: 0;
+    position: relative;
+    float: right;
+}
+
+.socialMedia svg{
+    margin: 0.5rem 0rem;
+}
+
+.heroImage{
+    z-index: 2;
+}
+
+.heroImage img{
+    height: 52vh !important;
+    z-index: 2;
+    position: relative;
+}
+
+.marginFix{
+    margin-top: 7vh;
+}
+
+.scrollLine{
+    width: 2.5px;
+    height: 120px;
+    background: #4F4F4F;
+    border-radius: 20px;
+    float: left;
+    margin-left: 0.3px;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+
+.scrollLineThick{
+    width: 3px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+    float: left;
+    -webkit-animation: scrollDown 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: scrollDown 2s infinite;
+}
+
+.scrollTag {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    float: left;
+    /* top: 0; */
+    position: relative;
+    margin-top: -90px;
+    margin-left: -25px;
+}
+
+.scrollTag .scrollWord{
+    letter-spacing: 0.5rem;
+    float: left;
+}
+
+
+/* keyframes */
+
+@-webkit-keyframes scrollDown {
+  from {top: 0px;}
+  to {top: 20px;}
+}
+
+/* Standard syntax */
+@keyframes scrollDown {
+  from {top: 0px;}
+  to {top: 20px;}
+}

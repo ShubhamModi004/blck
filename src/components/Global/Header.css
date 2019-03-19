@@ -1,0 +1,52 @@
+.Header{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4.7vh;
+}
+
+
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavLinks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.NavLinks a{
+    padding: 2rem 2.5rem;
+    color: #fff;
+    font-size: 0.7rem;
+    content: "";
+    position: relative;
+}
+
+.NavLinks a:hover,
+.NavLinks a:focus,
+.NavLinks a:active{
+    text-decoration: none;
+}
+
+.NavLinks p:after{
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 1px;
+    background: #fff;
+    content: "";
+    margin-top: 1.3rem;
+    position: absolute;
+    width: 0%;
+    text-align: center;
+    z-index: 2;
+    transition: width 0.25s;
+}
+
+.NavLinks p:hover:after,
+.NavLinks p:focus:after,
+.NavLinks p:active:after {
+  width: 50%;
+}

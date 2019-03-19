@@ -1,0 +1,57 @@
+
+.elementsCenter{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+@media (min-width: 768px){
+.team {
+    -webkit-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+}
+
+
+@media (min-width: 576px){
+.team {
+    -webkit-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+}
+
+.team {
+    -webkit-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+
+
+.team {
+    position: relative;
+    width: 100%;
+}
+
+
+.members{
+    background: #F8F0EE;
+    height: 17rem;
+    width: 100%;
+    overflow: visible;
+    position: relative;
+}
+
+.memberDetails p{
+    font-size: 0.8rem;
+}
+
+
+.team p{
+    color: #8D8D8D;
+}
+
+.values p{
+    margin-bottom: 5rem;
+}

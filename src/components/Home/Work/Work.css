@@ -1,0 +1,68 @@
+.firstProject{
+    height: 20rem;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.firstProject  .gatsby-image-wrapper{
+    height: 20rem !important;
+    display: block;
+    z-index: 2;
+}
+
+.gatsby-image-wrapper{
+    width: 100%;
+    height: 100%;
+    position: static !important;
+    overflow: hidden;
+}
+
+.Project{
+    background: #F8F0EE;
+    min-height: 35rem;
+    margin-top: 3.8rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0rem 55px;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.Project p{
+    color: #8D8D8D;
+}
+
+.singleProject{
+    padding-bottom: 1rem;
+}
+
+.singleProject .react-reveal{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+}
+
+.singleProject h2,
+.singleProject p,
+.singleProject a{
+    z-index: 10;
+    position: relative;
+}
+
+.caseLink{
+    padding-bottom: 1.8rem;
+    font-size: 0.8rem;
+}
+
+.caseLink a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    z-index: 10;
+    position: relative;
+    
+}

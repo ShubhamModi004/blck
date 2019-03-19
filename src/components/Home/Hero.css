@@ -1,0 +1,33 @@
+.Hero{
+    height: 94vh;
+    background: #000;
+}
+
+.heroHeader{
+    margin-top: 22vh;
+    color: #fff;
+}
+.heroHeading{
+    font-size: 3rem;
+}
+
+.heroHeading div{
+    padding-right: 1rem;
+}
+
+.heroDescription{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    color: #AAAAAA;
+    margin-top: 0.3rem;
+}
+
+.socialMedia{
+    right: 0;
+    position: relative;
+    float: right;
+}
+
+.socialMedia svg{
+    margin: 0.5rem 0rem;
+}

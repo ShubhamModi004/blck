@@ -1,0 +1,58 @@
+.homeAbout{
+    height: 100%;
+    background: linear-gradient(to bottom, #EBE1DD 10%, #FFFEFE 30%, #FFFEFE 90%);
+    background-size: 100%;
+    padding-bottom: 10vh;
+    position: relative;
+    min-height: 100vh;
+}
+
+.homeAbout h1{
+    padding-top: 10vh;
+    font-size: 3rem;
+}
+
+.aboutDescription{
+    color: #8D8D8D;
+    padding-top: 1.8rem;
+    line-height: 2rem;
+}
+
+.touchPoints{
+    margin-top: 12vh;
+}
+
+.placeholderImage{
+    background: #F8F0EE;
+    height: 6rem;
+    width: 10rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.placeholderImage img{
+    height: 100%;
+    width: auto;
+    z-index: 2;
+    position: absolute;
+    object-fit: cover;
+}
+
+.services{
+    margin-top: 5rem;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service h2{
+    margin-top: 2.8rem;
+}
+
+.centerElement{
+    display: flex;
+    justify-content: center;
+}
