@@ -4,7 +4,9 @@
 }
 
 .heroHeader{
-    margin-top: 22vh;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
     color: #fff;
 }
 .heroHeading{
@@ -26,6 +28,9 @@
     right: 0;
     position: relative;
     float: right;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
 }
 
 .socialMedia svg{

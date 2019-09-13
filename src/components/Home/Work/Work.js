@@ -21,7 +21,7 @@ class Work extends Component {
                 </div>
                 <div className="firstProject Project">
                     <div class="singleProject">
-                        <div className="hideOverflow"><Fade bottom duration={1000}><Website /></Fade></div>
+                        <div className="hideOverflow"><Fade duration={1000}><Website /></Fade></div>
                         <h2>Project Name</h2>
                         <p>Domain</p>
                     </div>
@@ -30,33 +30,33 @@ class Work extends Component {
                     </div>
                 </div>
                 <div className="row">
-                        <div className="col-md-6">
-                            <div className="Project">
-                                <div class="singleProject">
-                                    <div className="hideOverflow"><Fade bottom duration={1000}><Website /></Fade></div>
-                                    <h2>Project Name</h2>
-                                    <p>Domain</p>
-                                </div>
-                                <div className="caseLink">
-                                    <Link to="/">READ CASE</Link>
-                                </div>
+                    <div className="col-md-6">
+                        <div className="Project">
+                            <div class="singleProject">
+                                <div className="hideOverflow"><Fade duration={1000}><Website /></Fade></div>
+                                <h2>Project Name</h2>
+                                <p>Domain</p>
+                            </div>
+                            <div className="caseLink">
+                                <Link to="/">READ CASE</Link>
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <div className="Project">
-                                <div class="singleProject">
-                                    <div className="hideOverflow"><Fade bottom duration={1000}><Website /></Fade></div>
-                                    <h2>Project Name</h2>
-                                    <p>Domain</p>
-                                </div>
-                                <div className="caseLink">
-                                    <Link to="/">READ CASE</Link>
-                                </div>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="Project">
+                            <div class="singleProject">
+                                <div className="hideOverflow"><Fade duration={1000}><Website /></Fade></div>
+                                <h2>Project Name</h2>
+                                <p>Domain</p>
+                            </div>
+                            <div className="caseLink">
+                                <Link to="/">READ CASE</Link>
                             </div>
                         </div>
+                    </div>
                 </div>
                 <div className="text-center centerElement">
-                <ButtonB title="VIEW MORE" link="/"/>
+                    <ButtonB title="VIEW MORE" link="/" />
                 </div>
             </div>
         )

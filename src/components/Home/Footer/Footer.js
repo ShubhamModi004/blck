@@ -36,12 +36,12 @@ class Footer extends Component {
                     </div>
                     <Fade delay={1050}>
                         <h1 className="paddingAdjust">We like building great products,
-                        <br/>but we love building great relationships</h1>
+                        <br />but we love building great relationships</h1>
                     </Fade>
                     <div className="hideOverflow">
-                    <Fade left delay={1100}>
-                        <Button title="GET STARTED" link="/" />
-                    </Fade>
+                        <Fade left delay={1100}>
+                            <Button title="GET STARTED" link="/contact" />
+                        </Fade>
                     </div>
                 </div>
             </div>

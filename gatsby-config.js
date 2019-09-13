@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `BLCK STUDIO`,
+    description: `The Design And Development Studio`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `blck-studio`,
+        short_name: `development`,
         start_url: `/`,
         background_color: `#000`,
         theme_color: `#000`,

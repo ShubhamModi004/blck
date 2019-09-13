@@ -4,8 +4,15 @@
 }
 
 .heroHeader{
-    margin-top: 22vh;
+    margin-top: 5rem;
     color: #fff;
+}
+
+@media only screen and (max-width: 600px){
+    .heroHeader{
+        margin-top: 2rem;
+        color: #fff;
+    }
 }
 .heroHeading{
     font-size: 3rem;
